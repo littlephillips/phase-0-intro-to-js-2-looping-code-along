@@ -8,11 +8,11 @@ function writeCards (myArray, present) {
  writeCards()
 
 
-function countDown (startingNumbr){
-       while (startingNumbr > 0 ){
-        console.log(startingNumbr);
-        startingNumbr -=1;
+function countDown (startingNumber){
+       while (startingNumber > 0 ){
+        console.log(startingNumber);
+        startingNumber -=1;
     } 
 
-    console.log(startingNumbr);
+    console.log(startingNumber);
 }
